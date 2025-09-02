@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Just doing echoing
-        run: echo "HI, Now will work I guesss"
+        run: echoss "HI, Now will work I guesss"
