@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Just doing echoing
-        run: echofd "HI"
+        run: echo "HI, Now will work I guesss"
