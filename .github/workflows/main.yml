@@ -1,0 +1,9 @@
+name: Checking something will run or not jsut casually
+on: push
+
+jobs:
+  check_good_command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Just doing echoing
+        run: echo "HI"
